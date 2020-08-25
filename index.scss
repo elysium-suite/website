@@ -60,6 +60,7 @@ h1 {
   background-size: contain;
   background-position: top left;
   color: transparent;
+  background-clip: text;
   -webkit-background-clip: text;
   animation-name: bounce;
   animation-delay: 100ms;
@@ -177,4 +178,18 @@ a:hover {
   transform: translate(-50%, 50%) rotate(45deg);
   background-color: #21282e;
   color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 320px;
+  }
+
+  .main h1 {
+    font-size: 2rem;
+  }
+
+  .main p {
+    margin-top: 0;
+  }
 }
