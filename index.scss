@@ -193,3 +193,8 @@ a:hover {
     margin-top: 0;
   }
 }
+
+::selection {
+  background-color: #606e7c;
+  color: white;
+}
